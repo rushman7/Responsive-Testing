@@ -86,14 +86,49 @@ h1, h2, h3, h4, h5 {
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 4rem;
 }
 
 .mid-top {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .mid-container h1 {
   font-size: 4rem;
   text-align: center;
+}
+
+.mid-btn {
+  background: white;
+  border: 1px solid black;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.mid-btn:hover {
+  background: teal;
+  transition: 1s;
+  color: white;
+}
+
+.text-block {
+  width: 48%;
+  margin: 20px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.content-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-img {
+  width: 100%;
 }
