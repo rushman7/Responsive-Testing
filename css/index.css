@@ -119,9 +119,9 @@ h1, h2, h3, h4, h5 {
 
 .text-block {
   width: 48%;
-  margin: 20px 10px;
   font-size: 16px;
   font-weight: 500;
+  margin: 20px 0;
 }
 
 .content-block {
@@ -131,4 +131,22 @@ h1, h2, h3, h4, h5 {
 
 .middle-img {
   width: 100%;
+}
+
+.about-section {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 34px;
+}
+
+.contact-section {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
 }
